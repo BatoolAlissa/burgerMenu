@@ -40,3 +40,35 @@ body {
   height: 100%;
   z-index: -1;
 }
+
+
+#showcase .showcase-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+#showcase h1 {
+  font-size: 3rem 
+}
+
+#showcase p {
+  font-size: 1.3rem;
+}
+
+.btn {
+  display: inline-block;
+  background : var(--primary-color);
+  text-decoration: none;
+  padding: .75rem 1.5rem;
+  margin-top: 1.5rem;
+  color : white;
+  transition: opacity 1s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
