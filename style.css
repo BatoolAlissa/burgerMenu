@@ -204,7 +204,7 @@ visibility: visible;
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: white;
-  padding: 1rem;
+  padding: .75rem;
   font-size: 1.5rem;
 }
 
